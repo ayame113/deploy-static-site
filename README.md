@@ -21,8 +21,9 @@ Template repository for building static sites (HTML + CSS + JS) with deno deploy
         uses: denoland/deployctl@v1
         with:
 -          project: "deploy-static-site-test" # The name of your project in deno deploy
-+          project: "<your project name>" # The name of your project in deno deploy
++          project: "<your-project-name>" # The name of your project in deno deploy
           entrypoint: "https://deno.land/std/http/file_server.ts"
 ```
 
-4. Edit [index.html](./index.html) and build your site.
+4. Go to `https://<your-project-name>.deno.dev/` and make sure your website is public.
+5. Edit [index.html](./index.html) and build your site.
