@@ -15,5 +15,5 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "deploy-static-site-test"
+          project: "deploy-static-site-test" # The name of your project in deno deploy
           entrypoint: "https://deno.land/std/http/file_server.ts"
